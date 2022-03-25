@@ -1,6 +1,6 @@
-package com.stella;
+package com.stella.score;
 
-public class GraduateStudent extends Student{
+public class GraduateStudent extends Student {
     int thesis;
     public GraduateStudent(String name,
                            int english,

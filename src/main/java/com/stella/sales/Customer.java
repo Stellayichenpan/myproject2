@@ -1,4 +1,4 @@
-package com.stella;
+package com.stella.sales;
 
 public class Customer {
     String name;

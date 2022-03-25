@@ -1,4 +1,4 @@
-package com.stella;
+package com.stella.score;
 
 public class Student {
     String name;

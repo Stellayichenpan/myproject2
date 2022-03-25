@@ -1,4 +1,4 @@
-package com.stella;
+package com.stella.score;
 
 public class Scoring {
     public static void main(String[] args) {
