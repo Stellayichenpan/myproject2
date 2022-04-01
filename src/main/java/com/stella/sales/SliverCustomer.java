@@ -1,14 +1,13 @@
 package com.stella.sales;
 
-public class SilverCustomer extends Customer{
-
-    public SilverCustomer(String id, int amount) {
+public class SliverCustomer extends Customer{
+    int GiveMoney;
+    public SliverCustomer(String id, int amount) {
         super(id, amount);
     }
     @Override
     public void print() {
-        System.out.println(
-                id + "\t" + amount + "\t" + (amount-backMoney()) +
-                        "("+backMoney()+")");
+        System.out.println(id + "\t" + amount + "\t" + (amount-offMoney()));
     }
+
 }
