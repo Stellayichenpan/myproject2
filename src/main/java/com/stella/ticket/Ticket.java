@@ -6,11 +6,11 @@ public class Ticket {
     public static final int KAOHSIUNG_STATION = 300;
 
     int start;
-    int distination;
+    int destination;
     int price;
-    public Ticket(int start,int distination) {
+    public Ticket(int start,int destination) {
         this.start = start;
-        this.distination = distination;
+        this.destination = destination;
     }
 
     public void print() {
