@@ -1,23 +1,19 @@
 package com.stella.sales;
 
 public class Customer {
-    String name;
-    int spend;
-    int discount;
-    public Customer(String name, int spend) {
-        this.name = name;
-        this.spend = spend;
+    String id;
+    int amount;
+    float off = 0.1f;
+    public Customer(String id, int amount) {
+        this.id = id;
+        this.amount = amount;
+    }
+    public float backMoney() {
+        return (amount/1000)*off*1000;
+    }
 
-    }
-    public int CaculateDiscount() {
-        int cal = spend/1000;
-        if ((spend/1000)>= 1) {
-            discount = cal*100;
-        }
-        return discount;
-    }
-    public void print() {
-        int discount = CaculateDiscount();
-        System.out.println(name +"\t" + spend + "\t" + (spend-discount));
+    public void print(){
+        System.out.println(id + "\t" + amount + "\t" +
+                (amount-backMoney()));
     }
 }
