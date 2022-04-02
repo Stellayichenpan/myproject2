@@ -7,6 +7,6 @@ public class DiscountCustomer extends Customer{
     }
     @Override
     public void print() {
-        System.out.println(id + "\t" + amount + "\t" + (amount-offMoney()));
+        System.out.println(id + "\t" + amount + "\t" + (amount - backMoney()));
     }
 }
