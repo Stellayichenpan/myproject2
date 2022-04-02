@@ -23,7 +23,6 @@ public class Tester {
                 start = Station.KAOHSIUNG_STATION;
                 break;
         }
-        //
         System.out.println("Your start station?(1: Taipei, 2: Taichung, 3: Kaohsiung)");
         Station destination = null;
         switch (choice) {
