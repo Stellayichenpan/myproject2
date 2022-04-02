@@ -15,7 +15,6 @@ public class Student {
     }
     public Student(){
         this("John Doe", -1, -1);
-
     }
     public void print() {
         int average = getAverage();
