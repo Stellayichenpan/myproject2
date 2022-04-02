@@ -1,4 +1,5 @@
 package com.stella.ticket;
+
 public class StudentTicket extends Ticket {
     float off = 0.1f;
 

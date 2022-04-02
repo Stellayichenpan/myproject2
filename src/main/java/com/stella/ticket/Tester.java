@@ -1,5 +1,4 @@
 package com.stella.ticket;
-
 import java.util.Scanner;
 
 public class Tester {
